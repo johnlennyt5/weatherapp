@@ -1,0 +1,123 @@
+/* Set margin and padding to 0 for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    }
+    
+    /* Set the background color of the body to dark gray */
+    body{
+    background: #222;
+    }
+    
+    /* Styling for the weather card */
+    .card{
+    width: 90%;
+    max-width: 470px;
+    background:linear-gradient(135deg, #00feba, #5b548a );
+    color:#fff;
+    margin: 100px auto 0;
+    border-radius:20px;
+    padding: 40px 35px;
+    text-align:center;
+    }
+    
+    /* Styling for the search bar */
+    .search{
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    }
+    
+    /* Styling for the search input field */
+    .search input{
+    boder: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60;
+    border-radius: 30px;
+    flex: 1;
+    margin-right:16px;
+    font-size: 18px;
+    }
+    
+    /* Styling for the search button */
+    .search button{
+    boder: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50% ;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    }
+    
+    /* Styling for the search button image */
+    .search button img{
+    width: 20px;
+    }
+    
+    /* Styling for the weather icon */
+    .weather-icon{
+    width: 170px;
+    margin-top: 30px;
+    }
+    
+    /* Styling for the h1 element in the weather card */
+    .weather h1{
+    font-size: 80px;
+    font-weight: 500;
+    }
+    
+    /* Styling for the h2 element in the weather card */
+    .weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+    }
+    
+    /* Styling for the weather details section */
+    .details{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+    }
+    
+    /* Styling for the columns in the weather details section */
+    .col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    }
+    
+    /* Styling for the icons in the weather details section */
+    .col img{
+    width: 40px;
+    margin-right: 10px;
+    }
+    
+    /* Styling for the humidity and wind elements in the weather details section */
+    .humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+    }
+    
+    /* Hide the weather details section by default */
+    .weather{
+    display: none;
+    }
+    
+    /* Styling for the error message */
+    .error{
+    text-align: left ;
+    margin-left: 10px ;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+    }

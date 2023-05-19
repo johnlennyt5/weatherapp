@@ -1,0 +1,58 @@
+<!-- This is an HTML file for a weather app -->
+<html lang="en">
+<head>
+    <!-- The character set and the viewport is set up -->
+    <meta charset="utf-8">
+    <meta name="viewport"  content = "width=device-width, intial-scale=1.0">
+    <!-- The title of the app is set up -->
+    <title> Weather App </title>
+    <!-- The stylesheet is linked -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- The main container of the app -->
+    <div class="card">
+        <!-- The search box and button -->
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="images/search.png"></button>
+        </div>
+        <!-- The error message that is displayed when an invalid city name is entered -->
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <!-- The container for the weather details -->
+        <div class="weather">
+            <!-- The weather icon is displayed here -->
+            <img src="images/rain.png" class="weather-icon">
+            <!-- The temperature is displayed here -->
+            <h1 class="temp">22°c</h1>
+            <!-- The city name is displayed here -->
+            <h2 class="city">New York</h2>
+            <!-- The details of the weather are displayed here -->
+            <div class="details">
+                <div class="col">
+                    <!-- The humidity icon and value is displayed here -->
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p> Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <!-- The wind speed icon and value is displayed here -->
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind"> 15 km/h</p>
+                        <p> Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The script file is linked -->
+    <script src="weather.js"></script>
+</body>
+</html>
+
+
