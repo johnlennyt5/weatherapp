@@ -49,3 +49,5 @@ else {
 searchBtn.addEventListener("click", () => {
 checkWeather(searchBox.value)
 });
+
+// add comment to page check update  //
