@@ -2,3 +2,5 @@ Images must have alternate text: Element has no title attribute
 
 
 The 'viewport' meta element 'content' attribute value should not contain unknown property 'intial-scale'.
+
+Buttons must have discernible text: Element has no title attribute
